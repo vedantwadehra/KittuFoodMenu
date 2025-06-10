@@ -1,0 +1,52 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color:mistyrose;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1rem;
+    color:hotpink;
+}
+div{
+    font-size: 3rem;
+    line-height: 7rem;
+    border: solid black;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    border-radius: 2rem;
+}
+
+div h1{
+    background-color:rebeccapurple;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+li {
+    border-top: 1px solid black;
+}
+
+li a, li a:visited{
+    text-decoration: none;
+    color:hotpink;
+}
+
+li a:hover,li a:focus{
+    background-color:rebeccapurple;
+    cursor:grab;
+}
+
+li a{
+    display: block;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
